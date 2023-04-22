@@ -1,52 +1,77 @@
 /* Basic Style */
 .wrapper {
+
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
+
 }
 .description {
+
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
+
 }
 .description-img {
+
   width: 100%;
+
 }
 .description .more-inf {
+
   font-family: fantasy, cursive;
+
 }
 
 @media (max-width:768px) {
+
   .description {
+
     text-align: center;
+
   }
+
 }
 .planning-block {
+
   display: block;
   width: 500px;
   margin: 0 auto 0;
+
 }
 .task {
+
   width: 56%;
   display: inline-block;
   flex-grow: 1
+
 }
 .row-wrapper {
+
   display: flex;
+
 }
 .tasks-list {
+
   margin:0;
   padding: 0px;
+
 }
 /* теговые селекторы допускаются для намеренного сброса дефолтных стилей */
 li, .header {
+
     list-style:none;
+
 }
 input,button {
+
   outline:none;
+
 }
 .btn {
+
   background: none;
   border: 0px;
   color: #888;
@@ -54,13 +79,17 @@ input,button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+
 }
 .btn:hover {
+
   color: #3a3a3a;
+
 }
 /* Heading */
 .header,
 .new-task {
+
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -68,8 +97,10 @@ input,button {
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+
 }
 .task-text {
+
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,71 +111,99 @@ input,button {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+
 }
 .task-text:focus {
+
   color: #333;
+
 }
 
 /* New Task */
 .new-task {
+
   display: block;
   margin: 0 0 20px;
+
 }
 #new-task {
+
   width: 318px;
+
 }
 
 /* Task list */
 .list-item {
+
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .list-item > * {
+
   vertical-align: middle;
+
 }
 
 .list-item > .checkbox {
+
   margin: 0 10px;
+
 }
 .list-item > .task {
+
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+
 }
 .list-item > .task-text {
+
   width: 226px
+
 }
 .img-del {
+
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+
 }
 .img-del:hover {
+
   transform: rotateZ(0);
+
 }
 
 /* Completed */
 .completed-tasks .task {
+
   text-decoration: line-through
   color: #888;
+
 }
 
 /* Edit Task */
 .tasks-list .list-item .task-text {
+
   display:none
+
 }
 
 .tasks-list .list-item.edit-mode .task-text {
+
   display:inline-block;
   width:224px
+
 }
 
 .tasks-list .edit-mode .task {
+    
   display:none;
+  
 }
