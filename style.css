@@ -60,12 +60,14 @@
 
 }
 /* теговые селекторы допускаются для намеренного сброса дефолтных стилей */
-li, .header {
+li, 
+.header {
 
     list-style: none;
 
 }
-input,button {
+input,
+button {
 
   outline: none;
 
