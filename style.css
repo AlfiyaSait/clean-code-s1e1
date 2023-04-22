@@ -25,7 +25,7 @@
 
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .description {
 
@@ -55,19 +55,19 @@
 }
 .tasks-list {
 
-  margin:0;
+  margin: 0;
   padding: 0px;
 
 }
 /* теговые селекторы допускаются для намеренного сброса дефолтных стилей */
 li, .header {
 
-    list-style:none;
+    list-style: none;
 
 }
 input,button {
 
-  outline:none;
+  outline: none;
 
 }
 .btn {
@@ -191,19 +191,19 @@ input,button {
 /* Edit Task */
 .tasks-list .list-item .task-text {
 
-  display:none
+  display: none
 
 }
 
 .tasks-list .list-item.edit-mode .task-text {
 
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 
 }
 
 .tasks-list .edit-mode .task {
     
-  display:none;
-  
+  display: none;
+
 }
